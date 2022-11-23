@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper img {
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}

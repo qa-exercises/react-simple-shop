@@ -1,0 +1,56 @@
+[
+  {
+    "id": "dragonTree",
+    "name": "Dragon Tree",
+    "price": 25,
+    "imageUrl": "https://user-images.githubusercontent.com/7796522/203524976-16a5ffbf-d866-498d-aabf-7c89fe746461.jpg"
+  },
+  {
+    "id": "flamingoFlower",
+    "name": "Flamingo Flower",
+    "price": 22,
+    "imageUrl": "https://user-images.githubusercontent.com/7796522/203525734-a1dc2a86-11db-42cd-88db-b9bec117930c.jpg"
+  },
+  {
+    "id": "birdOfParadise",
+    "name": "Bird of Paradise",
+    "price": 25,
+    "imageUrl": "https://user-images.githubusercontent.com/7796522/203525943-2b878016-0012-4ec0-a298-9518467ee155.jpg"
+  },
+  {
+    "id": "monsteraDeliciosa",
+    "name": "Monstera Deliciosa",
+    "price": 18,
+    "imageUrl": "https://user-images.githubusercontent.com/7796522/203529061-625f0267-c5b8-40fa-83cf-0cb2d7e3c730.jpg"
+  },
+  {
+    "id": "yucca",
+    "name": "Yucca",
+    "price": 28,
+    "imageUrl": "https://user-images.githubusercontent.com/7796522/203529808-70ed72ad-d421-477a-b692-0eedb5e9923f.jpg"
+  },
+  {
+    "id": "peperomia",
+    "name": "Peperomia Raindrop",
+    "price": 18,
+    "imageUrl": "https://user-images.githubusercontent.com/7796522/203530191-b17214ed-c811-44f1-8b65-0893c72568c8.jpg"
+  },
+  {
+    "id": "asparagusFern",
+    "name": "Asparagus Fern",
+    "price": 8,
+    "imageUrl": "https://user-images.githubusercontent.com/7796522/203551659-5c6366de-40df-488d-abc6-faa15cd54cb7.jpg"
+  },
+  {
+    "id": "azalea",
+    "name": "Azalea",
+    "price": 14,
+    "imageUrl": "https://user-images.githubusercontent.com/7796522/203551943-388c076a-7670-42b6-a2d4-a1b41fd72e04.jpg"
+  },
+  {
+    "id": "leopardLily",
+    "name": "Leopard Lily",
+    "price": 18,
+    "imageUrl": "https://user-images.githubusercontent.com/7796522/203552334-00ae958e-b33c-45b7-9a61-34ae650a116d.jpg"
+  }
+]
