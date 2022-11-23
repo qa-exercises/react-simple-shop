@@ -4,9 +4,10 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  margin-bottom: 1.5rem;
   padding: 1rem 0;
   color: #e8f2e8;
-  background-color: rgb(85, 94, 85);
+  background-color: var(--color-primary);
   box-shadow: rgba(85, 94, 85, 0.629) 0px 2px 8px;
 }
 
