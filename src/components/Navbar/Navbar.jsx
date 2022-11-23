@@ -5,9 +5,9 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <h1 className={styles.header}>plant 🌱 theory</h1>
       <div className={styles['nav-link-wrapper']}>
-        <a>Home</a>
-        <a>Shop</a>
-        <a>Cart</a>
+        <a href="/">Home</a>
+        <a href="/items">Shop</a>
+        <a href="/checkout">Cart</a>
       </div>
     </nav>
   )
