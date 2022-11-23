@@ -1,7 +1,7 @@
 const HomePage = () => {
   return (
     <>
-      <h1>Welcome to plant theory.</h1>
+      <h1>Welcome to seed theory.</h1>
     </>
   )
 }
