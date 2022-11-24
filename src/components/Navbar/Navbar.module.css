@@ -1,26 +1,30 @@
 .navbar {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   width: 100%;
   margin-bottom: 1.5rem;
-  padding: 1rem 0;
-  color: #e8f2e8;
-  background-color: var(--color-primary);
-  box-shadow: rgba(85, 94, 85, 0.629) 0px 2px 8px;
+  /* background-color: var(--color-primary); */
 }
 
 .header {
+  width: 100%;
+  padding: 1rem 0;
+  background-color: var(--color-primary);
+  text-align: center;
   font-weight: 600;
+  color: white;  
 }
 
 .nav-link-wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 1.5rem;
-  margin-top: 1rem;
-  padding-top: 1rem;
-  border-top: solid 1px currentColor;
+  padding: 0.5rem 0;
+  border-bottom: solid 1px #cfdacd;
+  box-shadow: rgba(85, 94, 85, 0.15) 0px 2px 8px;
 }
 
 .nav-link-wrapper a:hover {

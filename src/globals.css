@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 :root {
-  --color-primary: rgb(72, 87, 72);
+  --color-primary: #54744d;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: var(--color-primary);
+  color: rgb(117, 128, 116);
 }
 
 * {
@@ -45,4 +45,31 @@ main {
   flex-direction: column;
   align-items: center;
   margin: 0 0.5rem;
+}
+
+h1, h2, h3 {
+  color: var(--color-primary);
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 100px;
+  border: solid 2px #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(49, 58, 49);
 }
