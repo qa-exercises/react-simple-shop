@@ -4,7 +4,7 @@ import styles from './Navbar.module.css'
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
-      <h1 className={styles.header}>seed 🌱 theory</h1>
+      <h2 className={styles.header}>seed 🌱 theory</h2>
       <div className={styles['nav-link-wrapper']}>
         <Link to="/">Home</Link>
         <Link to="/items">Shop</Link>
