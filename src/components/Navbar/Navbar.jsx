@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './Navbar.module.css'
 
 const Navbar = () => {
@@ -5,9 +6,9 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <h1 className={styles.header}>seed 🌱 theory</h1>
       <div className={styles['nav-link-wrapper']}>
-        <a href="/">Home</a>
-        <a href="/items">Shop</a>
-        <a href="/checkout">Checkout</a>
+        <Link to="/">Home</Link>
+        <Link to="/items">Shop</Link>
+        <Link to="/checkout">Checkout</Link>
       </div>
     </nav>
   )

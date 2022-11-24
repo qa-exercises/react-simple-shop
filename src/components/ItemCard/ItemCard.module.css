@@ -17,22 +17,6 @@
   border-radius: 5px;
 }
 
-.wrapper button {
-  border: none;
-  border-radius: 5px;
-  padding: 0.25rem;
-  transition: background-color 80ms;
-}
-
-.remove-from-cart {
-  background-color: var(--color-primary);
-  color: white;
-}
-
-.remove-from-cart:hover {
-  background-color: rgb(49, 58, 49);
-}
-
 .add-to-cart {
   color: var(--color-primary);
   background-color: rgba(64, 77, 64, 0.15);

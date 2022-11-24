@@ -1,26 +1,33 @@
-import { createContext, useState } from "react"
+import { createContext, useState } from 'react'
+import sum from 'lodash.sum'
+import items from '../data/items.json'
 
 export const CartContext = createContext()
 
 export const CartProvider = ({ children }) => {
-  const [itemsInCart, setItemsInCart] = useState([])
+  const [itemIds, setItemIds] = useState([])
 
-  const addItem = (itemId) => {
-    setItemsInCart(oldItems => [...oldItems, itemId])
-  }
-
-  const removeItem = (itemId) => {
-    setItemsInCart(oldItems => oldItems.filter((id) => id !== itemId))
-  }
-
-  const isItemInCart = (itemId) => {
-    return !!itemsInCart.find((id) => id === itemId)
+  const contextValue = {
+    itemIds,
+    addItem(itemId) {
+      setItemIds(oldItems => [...oldItems, itemId])
+    },
+    removeItem(itemId){
+      setItemIds(oldItems => oldItems.filter((id) => id !== itemId))
+    },
+    isItemInCart(itemId){
+      return !!itemIds.find((id) => id === itemId)
+    },
+    getItemById(itemId) {
+      return items.find((item) => item.id === itemId)
+    },
+    calculateTotal() {
+      return sum(itemIds.map((id) => contextValue.getItemById(id).price))
+    }
   }
 
   return (
-    <CartContext.Provider
-      value={{ itemsInCart, addItem, removeItem, isItemInCart }}
-    >
+    <CartContext.Provider value={contextValue}>
       {children}
     </CartContext.Provider>
   )

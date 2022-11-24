@@ -28,4 +28,21 @@ a {
 button {
   font-family: inherit;
   cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 0.25rem;
+  transition: background-color 80ms;
+  background-color: var(--color-primary);
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(49, 58, 49);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0.5rem;
 }

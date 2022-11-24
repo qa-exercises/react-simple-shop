@@ -4,8 +4,8 @@ import ItemCard from '../../components/ItemCard'
 
 const HomePage = () => {
   return (
-    <div className={styles['page-wrapper']}>
-      <h1>Find your perfect plant.</h1>
+    <>
+      <h1 className={styles.header}>Find your perfect plant.</h1>
       <div className={styles['items-grid']}>
         {
           itemsData.map((item) => (
@@ -13,7 +13,7 @@ const HomePage = () => {
           ))
         }
       </div>
-    </div >
+    </ >
   )
 }
 
