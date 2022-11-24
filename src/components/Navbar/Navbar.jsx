@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className={styles['nav-link-wrapper']}>
         <a href="/">Home</a>
         <a href="/items">Shop</a>
-        <a href="/checkout">Cart</a>
+        <a href="/checkout">Checkout</a>
       </div>
     </nav>
   )
