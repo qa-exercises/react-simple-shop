@@ -1,11 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { CartProvider } from "./context/cart"
 import Navbar from "./components/Navbar"
 import HomePage from "./pages/Home"
 import ItemsPage from "./pages/Items"
 
 function App() {
   return (
-    <div>
+    <CartProvider>
       <Navbar />
       <BrowserRouter>
         <Routes>
@@ -14,7 +15,7 @@ function App() {
           <Route path="/checkout" element={<h1>Checkout</h1>} />
         </Routes>
       </BrowserRouter>
-    </div>
+    </CartProvider>
   )
 }
 
