@@ -2,6 +2,7 @@
 
 :root {
   --color-primary: #54744d;
+  --color-primary-dark: #313a31;
 }
 
 body {
@@ -31,13 +32,16 @@ button {
   border: none;
   border-radius: 5px;
   padding: 0.25rem;
-  transition: background-color 80ms;
   background-color: var(--color-primary);
   color: white;
 }
 
 button:hover {
-  background-color: rgb(49, 58, 49);
+  background-color: var(--color-primary-dark);
+}
+
+a:hover, button:hover {
+  transition: background-color 80ms;
 }
 
 main {
@@ -71,5 +75,5 @@ h1, h2, h3 {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(49, 58, 49);
+  background: var(--color-primary-dark);
 }
