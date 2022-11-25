@@ -30,8 +30,8 @@ button {
   font-family: inherit;
   cursor: pointer;
   border: none;
-  border-radius: 5px;
-  padding: 0.25rem;
+  border-radius: 3px;
+  padding: 0.35rem;
   background-color: var(--color-primary);
   color: white;
 }
