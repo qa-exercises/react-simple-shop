@@ -14,6 +14,10 @@
   color: white;  
 }
 
+.header svg {
+  margin: 0 0.5rem;
+}
+
 .nav-link-wrapper {
   display: flex;
   justify-content: center;
