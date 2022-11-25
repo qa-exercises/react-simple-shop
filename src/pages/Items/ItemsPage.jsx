@@ -5,7 +5,7 @@ import ItemCard from '../../components/ItemCard'
 const HomePage = () => {
   return (
     <>
-      <h1 className={styles.header}>Find your perfect plant.</h1>
+      <h1 className={styles.header}>Our plants</h1>
       <div className={styles['items-grid']}>
         {
           itemsData.map((item) => (
