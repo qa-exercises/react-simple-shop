@@ -8,13 +8,13 @@
   {
     "id": "chineseMoneyTree",
     "name": "Chinese Money Tree",
-    "price": 22,
+    "price": 16,
     "imageUrl": "https://user-images.githubusercontent.com/118732445/203812749-e03f1ccb-3edc-454a-9220-df767fb00739.jpg"
   },
   {
     "id": "aglaonema",
     "name": "Aglaonema",
-    "price": 14,
+    "price": 15,
     "imageUrl": "https://user-images.githubusercontent.com/118732445/203823558-15336f0e-0d89-409d-bc00-b259ae243d73.jpg"
   },
   {
@@ -26,13 +26,13 @@
   {
     "id": "philodendron",
     "name": "Philodendron",
-    "price": 8,
+    "price": 14,
     "imageUrl": "https://user-images.githubusercontent.com/118732445/203823102-210c1371-b0c1-4ab2-afa8-4c41c3002545.jpg"
   },
   {
     "id": "parlourPalm",
     "name": "Parlour Palm",
-    "price": 28,
+    "price": 8,
     "imageUrl": "https://user-images.githubusercontent.com/118732445/203822381-ecdca485-6a42-4ee7-8956-93353e39f017.jpg"
   },
   {
@@ -44,13 +44,13 @@
   {
     "id": "miniPine",
     "name": "Mini Pine",
-    "price": 25,
+    "price": 22,
     "imageUrl": "https://user-images.githubusercontent.com/118732445/203820531-0d24e8aa-0314-490b-bc0d-f3aa2e7c0f51.jpg"
   },
   {
     "id": "appleCactus",
     "name": "Apple Cactus",
-    "price": 25,
+    "price": 12,
     "imageUrl": "https://user-images.githubusercontent.com/118732445/203812745-c6d7dad7-5ddc-4513-8004-e348b7739d78.jpg"
   }
 ]
