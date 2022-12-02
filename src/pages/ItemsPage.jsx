@@ -1,6 +1,6 @@
 import styles from './ItemsPage.module.css'
-import itemsData from '../../data/items.json'
-import ItemCard from '../../components/ItemCard'
+import itemsData from '../data/items.json'
+import ItemCard from '../components/ItemCard'
 
 const HomePage = () => {
   return (

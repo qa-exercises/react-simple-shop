@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { CartProvider } from './context/cart'
 import Navbar from './components/Navbar'
-import HomePage from './pages/Home'
-import ItemsPage from './pages/Items'
-import CheckoutPage from './pages/Checkout/'
+import HomePage from './pages/HomePage'
+import ItemsPage from './pages/ItemsPage'
+import CheckoutPage from './pages/CheckoutPage'
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { CartContext } from '../../context/cart'
+import { CartContext } from '../context/cart'
 import styles from './ItemCard.module.css'
 
 const ItemCard = ({ id, name, price, imageUrl }) => {
