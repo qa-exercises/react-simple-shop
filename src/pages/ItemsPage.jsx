@@ -1,8 +1,7 @@
 import styles from './ItemsPage.module.css'
-import itemsData from '../data/items.json'
 import ItemCard from '../components/ItemCard'
 
-const HomePage = () => {
+const ItemsPage = ({ itemsData }) => {
   return (
     <>
       <h1 className={styles.header}>Our plants</h1>
@@ -17,4 +16,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
+export default ItemsPage

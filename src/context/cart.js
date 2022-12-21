@@ -1,10 +1,9 @@
 import { createContext, useState } from 'react'
 import sum from 'lodash.sum'
-import items from '../data/items.json'
-
+ 
 export const CartContext = createContext()
 
-export const CartProvider = ({ children }) => {
+export const CartProvider = ({ itemsData, children }) => {
   const [itemIds, setItemIds] = useState([])
 
   const contextValue = {
@@ -19,7 +18,7 @@ export const CartProvider = ({ children }) => {
       return !!itemIds.find((id) => id === itemId)
     },
     getItemById(itemId) {
-      return items.find((item) => item.id === itemId)
+      return itemsData.find((item) => item.id === itemId)
     },
     calculateTotal() {
       return sum(itemIds.map((id) => contextValue.getItemById(id).price))
